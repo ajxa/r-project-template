@@ -12,13 +12,13 @@ A brief description of your project and its purpose.
 - **inst/**: External scripts and resources.
 - **scripts/**: R scripts for utilities.
   - **utils/**: Utility functions.
+- **outputs/**: A place to store output files.
 
 ## Getting Started
 
 ### Prerequisites
 
 - R (version X.X.X or higher)
-- `renv` package
 
 ### Installation
 
