@@ -1,0 +1,19 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+.Rproj.user/*
+.Rproj.user/**
+
+# renv packages
+renv/library/
+renv/sandbox/
+
