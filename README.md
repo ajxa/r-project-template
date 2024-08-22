@@ -46,13 +46,40 @@ A brief description of your project and its purpose.
 ## Getting Started
 
 ### Prerequisites
-- R (version X.X.X or higher)
+- **R** (version X.X.X or higher)
+- **RStudio** (recommended for creating and managing R projects)
+- **Git** (for cloning the repository and version control)
 
-### Installation
+### Steps to Clone and Set Up the Repository
 
-1. Clone the repository:
+1. **Clone the Repository**:
+   
+   Start by cloning this repository to your local machine:
 
-```bash
-git clone https://github.com/your_username/project_name.git
-cd project_name
-```
+   ```bash
+   git clone https://github.com/your_username/r-project-template.git new_project_name
+   cd new_project_name
+   ```
+   Replace your_username with your GitHub username and new_project_name with the desired name of your new project.
+
+2. **Create an RStudio Project File (.RProj)**:
+   
+   - Open RStudio and create a new R project in the cloned directory:
+   - Go to File > New Project > Existing Directory.
+   - Navigate to the cloned new_project_name directory and select it.
+   - Name the project appropriately (e.g., new_project_name.Rproj).
+   - Click "Create Project"
+
+   This will create a .RProj file in the root directory, which is used to manage RStudio-specific settings.
+
+3. **Initialize an `renv` Environment (optional but encouraged):**
+   To set up the R package environment and dependencies, run `scripts/utils/renv_init.R` which will:
+   
+   - Set up the renv project infrastructure in the current directory.
+   - Discover and install the R packages that are currently being used in your project into the project-specific library.
+   - Create a renv.lock file that records the state of the project library, ensuring that others can restore the same environment.
+   - Restart R (if running inside RStudio) to ensure that the new environment is properly loaded.
+
+4. **You're Ready to Go!**
+
+Once you've completed these steps, your new project should be set up and ready to use. You can now start adding data, scripts, and other resources to the project and begin your analysis.
