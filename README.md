@@ -73,6 +73,7 @@ A brief description of your project and its purpose.
    This will create a .RProj file in the root directory, which is used to manage RStudio-specific settings.
 
 3. **Initialize an `renv` Environment (optional but encouraged):**
+   
    To set up the R package environment and dependencies, run `scripts/utils/renv_init.R` which will:
    
    - Set up the renv project infrastructure in the current directory.
@@ -82,4 +83,4 @@ A brief description of your project and its purpose.
 
 4. **You're Ready to Go!**
 
-Once you've completed these steps, your new project should be set up and ready to use. You can now start adding data, scripts, and other resources to the project and begin your analysis.
+   Once you've completed these steps, your new project should be set up and ready to use. You can now start adding data, scripts, and other resources to the project and begin your analysis.
