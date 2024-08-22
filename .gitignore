@@ -13,7 +13,5 @@
 .Rproj.user/*
 .Rproj.user/**
 
-# renv packages
-renv/library/
-renv/sandbox/
+.DS_Store
 
