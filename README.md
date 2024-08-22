@@ -1,8 +1,6 @@
-# Project Title
-
+# Template R Project Repo
 ## Project Description
-
-A brief description of your project and its purpose.
+This repo contain a template R project setup with optional package and environment management using the `renv` R package.
 
 ## Directory Structure
 ```
