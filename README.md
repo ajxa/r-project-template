@@ -84,3 +84,48 @@ A brief description of your project and its purpose.
 4. **You're Ready to Go!**
 
    Once you've completed these steps, your new project should be set up and ready to use. You can now start adding data, scripts, and other resources to the project and begin your analysis.
+
+## Pushing the Project to a New Remote Repository on GitHub
+
+Once you have cloned this template project into a new directory (e.g., `test_project`) and made the necessary changes, follow the steps below to push your project to a new remote repository on GitHub.
+
+### 1. Create a New Repository on GitHub
+
+1. Go to [GitHub](https://github.com) and log in to your account.
+2. Click on the **"New repository"** button (you can find this by clicking on the "+" icon in the top-right corner or on your GitHub profile page).
+3. **Name your new repository** (e.g., `test_project`).
+4. Set the repository to **public or private** depending on your preference.
+5. **Do not initialize with a README** (since you already have one).
+6. Click **"Create repository"**.
+
+### 2. Link Your Local Directory to the New GitHub Repository
+
+After creating the new repository on GitHub, link your local `test_project` directory to this remote repository:
+
+1. Open a terminal and navigate to your project directory:
+
+    ```bash
+    cd /path/to/test_project
+    ```
+
+2. Remove the existing remote origin (if any):
+
+    ```bash
+    git remote remove origin
+    ```
+
+3. Add the new remote repository URL:
+
+    ```bash
+    git remote add origin https://github.com/your_username/test_project.git
+    ```
+
+    Replace `your_username` with your GitHub username and `test_project.git` with the name of your new repository.
+
+### 3. Push Your Local Repository to GitHub
+
+Push your local changes to the new remote repository:
+
+```bash
+git push -u origin main
+```
