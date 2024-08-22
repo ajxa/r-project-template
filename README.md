@@ -56,7 +56,7 @@ This is a template R project repository that can be used to quickly create a pro
 
 ## Steps to Clone and Set Up the Repository
 
-1. **Clone the Repository**:
+### 1. Clone the Repository
    
    Start by cloning this repository to your local machine:
 
@@ -66,7 +66,7 @@ This is a template R project repository that can be used to quickly create a pro
    ```
    Replace your_username with your GitHub username and new_project_name with the desired name of your new project.
 
-2. **Create an RStudio Project File (.RProj)**:
+### 2. Create an RStudio Project File (.RProj)
    
    - Open RStudio and create a new R project in the cloned directory:
    - Go to File > New Project > Existing Directory.
@@ -76,7 +76,7 @@ This is a template R project repository that can be used to quickly create a pro
 
    This will create a .RProj file in the root directory, which is used to manage RStudio-specific settings.
 
-3. **Initialize an `renv` Environment (optional but encouraged):**
+### 3. Initialize an `renv` Environment (optional but encouraged)
    
    To set up the R package environment and dependencies, run `scripts/utils/renv_init.R` which will:
    
@@ -85,7 +85,7 @@ This is a template R project repository that can be used to quickly create a pro
    - Create a renv.lock file that records the state of the project library, ensuring that others can restore the same environment.
    - Restart R (if running inside RStudio) to ensure that the new environment is properly loaded.
 
-4. **You're Ready to Go!**
+### 4. You're Ready to Go!
 
    Once you've completed these steps, your new project should be set up and ready to use. You can now start adding data, scripts, and other resources to the project and begin your analysis.
 
@@ -93,7 +93,7 @@ This is a template R project repository that can be used to quickly create a pro
 
 Once you have cloned this template project into a new directory (e.g., `test_project`) and made the necessary changes, follow the steps below to push your project to a new remote repository on GitHub.
 
-## 1. Create a New Repository on GitHub
+### 1. Create a New Repository on GitHub
 
 1. Go to [GitHub](https://github.com) and log in to your account.
 2. Click on the **"New repository"** button (you can find this by clicking on the "+" icon in the top-right corner or on your GitHub profile page).
