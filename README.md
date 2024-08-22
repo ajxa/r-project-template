@@ -1,6 +1,15 @@
-# Template R Project Repo
-## Project Description
-This repo contain a template R project setup with optional package and environment management using the `renv` R package.
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Directory Structure](#directory-structure)
+  - [Explanation of Directory Structure](#explanation-of-directory-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning and Setting Up](#steps-to-clone-and-set-up-the-repository)
+  - [Pushing to a New Repository on GitHub](#pushing-the-project-to-a-new-remote-repository-on-github)
+
+## Introduction
+This is a template R project repository that can be used to quickly create a project with optional package and environment management using the `renv` R package. Moreover, the repository also contains a template script that follows a standardised approach to building a pipeline based on multiple R scripts.
 
 ## Directory Structure
 ```
