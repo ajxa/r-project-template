@@ -19,7 +19,6 @@ library(magrittr)
 library(dplyr)
 library(stringr)
 library(purrr)
-library(IMCfuncs)
 
 # I/O --------------------------------------------------------------------------
 io <- list(

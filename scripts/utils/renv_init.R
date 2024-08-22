@@ -16,7 +16,7 @@ if (!requireNamespace("renv", quietly = TRUE)) {
   install.packages("renv")
 }
 
-init(
+renv::init(
     bare = FALSE,
     force = FALSE,
     repos = NULL,
